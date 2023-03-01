@@ -22,7 +22,7 @@ function Codesamples() {
               <p>Cocktail Database</p>
             </h3>
             <div className="project-description">
-              <p>A multiple page project to fetch variety of cocktails with REST API and display details about it. This project also features a search option to search specific cockatails
+              <p>A multiple page project to fetch variety of cocktails with REST API and display details about it. This project also features a search option to search specific cocktails
               </p>
             </div>
             <ul className="project-tech-list">
