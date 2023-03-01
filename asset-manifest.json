@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/gh-pages/static/css/main.5ec98156.css",
-    "main.js": "/gh-pages/static/js/main.ca4d8d9e.js",
+    "main.css": "/gh-pages/static/css/main.71713fda.css",
+    "main.js": "/gh-pages/static/js/main.3ca80ae1.js",
     "static/js/787.1ed0c42c.chunk.js": "/gh-pages/static/js/787.1ed0c42c.chunk.js",
     "static/media/aishwaryak.jpg": "/gh-pages/static/media/aishwaryak.467511e1b300811aa65a.jpg",
     "static/media/cocktaildb.png": "/gh-pages/static/media/cocktaildb.4a033d3e3290fc4cb1e1.png",
     "static/media/teambuilder.png": "/gh-pages/static/media/teambuilder.b51721e6e2ead702a13a.png",
     "index.html": "/gh-pages/index.html",
-    "main.5ec98156.css.map": "/gh-pages/static/css/main.5ec98156.css.map",
-    "main.ca4d8d9e.js.map": "/gh-pages/static/js/main.ca4d8d9e.js.map",
+    "main.71713fda.css.map": "/gh-pages/static/css/main.71713fda.css.map",
+    "main.3ca80ae1.js.map": "/gh-pages/static/js/main.3ca80ae1.js.map",
     "787.1ed0c42c.chunk.js.map": "/gh-pages/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ec98156.css",
-    "static/js/main.ca4d8d9e.js"
+    "static/css/main.71713fda.css",
+    "static/js/main.3ca80ae1.js"
   ]
 }
