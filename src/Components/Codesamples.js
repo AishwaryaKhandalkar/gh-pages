@@ -9,9 +9,9 @@ import { openInNewTab } from './Header'
 function Codesamples() {
   return (
     <section id='work'>
-      <div className='lg:grid project block'>
+      <div className='lg:grid project block border-2 lg:border-0 lg:p-0 p-6'>
         <div className='project-image'>
-          <a href="#" onClick = {() => openInNewTab("https://github.com/AishwaryaKhandalkar/reactproject_cocktaildb")} className='project-screenshot'>
+          <a href="#work" onClick = {() => openInNewTab("https://github.com/AishwaryaKhandalkar/reactproject_cocktaildb")} className='project-screenshot'>
             <img src={Project1} alt="cocktails database project screenshot"/>
           </a>
         </div>
@@ -19,7 +19,7 @@ function Codesamples() {
           <div>
             <p className="project-overline">Project</p>
             <h3 className="project-title text-teal-300">
-              <a>Cocktail Database</a>
+              <p>Cocktail Database</p>
             </h3>
             <div className="project-description">
               <p>A multiple page project to fetch variety of cocktails with REST API and display details about it. This project also features a search option to search specific cockatils
@@ -32,22 +32,22 @@ function Codesamples() {
               <li className='mr-2'>REST API</li>
             </ul>
             <div className="project-links">
-              <a className='mr-4' aria-label="GitHub Link" href="#" onClick = {() => openInNewTab("https://github.com/AishwaryaKhandalkar/reactproject_cocktaildb")}>
+              <a className='mr-4' aria-label="GitHub Link" href="#work" onClick = {() => openInNewTab("https://github.com/AishwaryaKhandalkar/reactproject_cocktaildb")}>
                 <FontAwesomeIcon icon={faGithub} />
               </a>
-              <a aria-label="External Link" href="#" onClick = {() => openInNewTab("#")}>
+              <a aria-label="External Link" href="#work" onClick = {() => openInNewTab("#")}>
                 <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
               </a>
             </div>
           </div>
         </div>
       </div>
-      <div className='lg:grid project block'>
+      <div className='lg:grid project block border-2 lg:border-0 lg:p-0 p-6'>
         <div className='project-name text-right'>
           <div>
             <p className="project-overline lg:text-right text-left">Project</p>
             <h3 className="project-title text-teal-300 lg:text-right text-left">
-              <a>Team Member Allocation</a>
+              <p>Team Member Allocation</p>
             </h3>
             <div className="project-description">
               <p></p>
@@ -58,17 +58,17 @@ function Codesamples() {
               <li className='mr-2'>local Storage</li>
             </ul>
             <div className="project-links lg:text-right text-left">
-              <a className='mr-4' aria-label="GitHub Link" href="#" onClick = {() => openInNewTab("https://github.com/AishwaryaKhandalkar/reactproject_cocktaildb")}>
+              <a className='mr-4' aria-label="GitHub Link" href="#work" onClick = {() => openInNewTab("https://github.com/AishwaryaKhandalkar/reactproject_cocktaildb")}>
                 <FontAwesomeIcon icon={faGithub} />
               </a>
-              <a aria-label="external link" href="#" onClick = {() => openInNewTab("#")}>
+              <a aria-label="external link" href="#work" onClick = {() => openInNewTab("#")}>
                 <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
               </a>
             </div>
           </div>
         </div>
         <div className='project-image'>
-          <a aria-label="Team builder project" href="#" onClick = {() => openInNewTab("#")} className='project-screenshot'>
+          <a aria-label="Team builder project" href="#work" onClick = {() => openInNewTab("#")} className='project-screenshot'>
             <img src={Project2} alt="team builder project screenshot"/>
           </a>
         </div>

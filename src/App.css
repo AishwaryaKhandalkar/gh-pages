@@ -53,17 +53,6 @@ section {
 
 }
 
-@media only screen and (max-width: 640px) {
-  .home .name {
-    line-height: 3rem;
-  }
-
-  .container {
-    padding: 0 70px;
-  }
-}
-
-
 .home .summary {
  max-width: 450px;
  margin: 25px 0 10px;
@@ -164,4 +153,18 @@ button.active {
   position: fixed;
   left: 25px;
   bottom: 0;
+}
+
+@media only screen and (max-width: 640px) {
+  .home .name {
+    line-height: 3rem;
+  }
+
+  .container {
+    padding: 0 70px;
+  }
+
+  .potrait {
+    height: 20rem;
+  }
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import TabContent from '../Features/TabContent';
 import Tabnav from '../Features/Tabnav';
+import { openInNewTab } from './Header';
 
 function Experience() {
   const [activeTab, setActiveTab] = React.useState("tab1");
@@ -16,7 +17,7 @@ function Experience() {
         <div className='tabpanel lg:ml-20 lg:m-0 mt-4'>
           <TabContent activeTab={activeTab} id="tab1">
             <div className='job-experience'>
-              <div className='job-title'><b>Senior Software Engineer @ <a href='https://www.cybage.com/' target='_blank'>Cybage</a></b></div>
+              <div className='job-title'><b>Senior Software Engineer @ <a href='#experience' onClick={() => openInNewTab("https://www.cybage.com/")} >Cybage</a></b></div>
               <div className='job-dates'>Oct 2021 - Apr 2022</div>
               <ul>
                 <li>Led team of 2 on creating software reviews/feedbacks UI portal functionality</li>
@@ -41,7 +42,7 @@ function Experience() {
           </TabContent>
           <TabContent activeTab={activeTab} id="tab2">
           <div className='job-experience'>
-            <div className='job-title'><b>Web developer @<a href='https://www.amuratech.com/' target="_blank">Amura</a></b></div>
+            <div className='job-title'><b>Web developer @<a href='#experience' onClick={() =>openInNewTab("https://www.amuratech.com/")}>Amura</a></b></div>
             <div className='job-dates'>Apr 2018 - Sep 2019</div>
               <ul>
                 <li>Utilized HTML, CSS, and JavaScript to create 10+ responsive landing pages for both company and client</li>
@@ -51,8 +52,8 @@ function Experience() {
           </TabContent>
           <TabContent activeTab={activeTab} id="tab3">
             <div className='job-experience'>
-              <div className='job-title'><b>Project Intern @ <a href='https://atos.net/en/' target='_blank'>Syntel</a></b></div>
-              <div className='job-dates'>Sep 2019 - Oct 2021</div>
+              <div className='job-title'><b>Project Intern @ <a href='#experience' onClick={() => openInNewTab("https://atos.net/en/")}>Syntel</a></b></div>
+              <div className='job-dates'>Aug 2014 - Jan 2015</div>
               <ul>
                 <li>Developed a responsive website and web service using Oracle SOA Suite</li>
                 <li>Worked on writing technical documentation for project</li>
