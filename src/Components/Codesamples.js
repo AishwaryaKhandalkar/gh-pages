@@ -49,7 +49,7 @@ function Codesamples() {
             <h3 className="project-title text-teal-300 lg:text-right text-left">
               <p>Team Member Allocation</p>
             </h3>
-            <div className="project-description">
+            <div className="project-description text-left lg:text-right">
               <p>This is a multiple page application which facilitates allocation of members to team and displaying the list of team. We can juggle teams by interacting with the interface.</p>
             </div>
             <ul className="project-tech-list lg:text-right text-left">
